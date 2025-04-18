@@ -17,6 +17,15 @@
             ],
             "matchCurrentVersion": "!/^0/",
             "platformCommit": true
+        },
+        {
+            "matchDatasources": [
+                "go"
+            ],
+            "allowedVersions": "/^v0\\.23\\.1$/",
+            "matchPackageNames": [
+                "github.com/google/cel-go"
+            ]
         }
     ]
 }
