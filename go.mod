@@ -4,7 +4,7 @@ go 1.24
 
 // Address an incompatibility between buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go and the kubernetes modules.
 // See https://github.com/overmindtech/workspace/pull/1124 and https://github.com/kubernetes/apiserver/issues/116
-replace github.com/google/cel-go => github.com/google/cel-go v0.22.1
+replace github.com/google/cel-go => github.com/google/cel-go v0.24.1
 
 require (
 	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.36.6-20250307204501-0409229c3780.1 // indirect
