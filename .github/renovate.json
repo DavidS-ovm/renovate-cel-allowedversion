@@ -16,19 +16,7 @@
                 "patch"
             ],
             "matchCurrentVersion": "!/^0/",
-            "automerge": true,
-            "platformAutomerge": true,
             "platformCommit": true
-        },
-        {
-            "matchDatasources": [
-                "go"
-            ],
-            "prBodyNotes": "this pin is for the version of github.com/google/cel-go that is compatible between protovalidate and kubernetes. see https://github.com/kubernetes/apiserver/issues/116",
-            "allowedVersions": "/^v0\\.22\\.1$/",
-            "matchPackageNames": [
-                "github.com/google/cel-go"
-            ]
         }
     ]
 }
